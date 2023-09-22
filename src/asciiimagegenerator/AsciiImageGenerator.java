@@ -33,6 +33,9 @@ public class AsciiImageGenerator
         }
     }
     
+    /*******************************************************************
+     *  Do not modify any code below this line.
+     *******************************************************************/
     public static void main(String[] args) throws IOException
     {
         // Read in the image file.
