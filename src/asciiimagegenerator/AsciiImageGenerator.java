@@ -15,7 +15,9 @@ public class AsciiImageGenerator
     //   * items.jpg
     // You can also put your own file in the NetBeansProjects / AsciiImageGenerator folder.
     public final static String FILE_NAME = "dog.jpg";
-    
+    //public final static String FILE_NAME = "ducks.jpg";
+    //public final static String FILE_NAME = "items.jpg";
+
     public static void outputAscii(int grayScaleValue)
     {
         // Use the grayScaleValue variable to determine what character you would
