@@ -24,6 +24,7 @@ public class AsciiImageGenerator
         // like to output.  You need to output at least three different characters.
         // The grayScaleValue variable will contain a value between 0 and 255. 
         // 0 corresponds to black and 255 corresponds to white.
+        // System.out.printf("%3d ", grayScaleValue);   // this line will print out the actual gray value
         
         if (grayScaleValue > 50)
         {
