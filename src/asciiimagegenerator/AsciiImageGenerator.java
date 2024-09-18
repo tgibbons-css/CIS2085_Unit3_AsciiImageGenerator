@@ -25,7 +25,7 @@ public class AsciiImageGenerator
         // The grayScaleValue variable will contain a value between 0 and 255. 
         // 0 corresponds to black and 255 corresponds to white.
         
-        if (grayScaleValue < 50)
+        if (grayScaleValue > 50)
         {
             System.out.print("M");
         }
