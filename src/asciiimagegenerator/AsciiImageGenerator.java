@@ -14,9 +14,12 @@ public class AsciiImageGenerator
     //   * ducks.jpg
     //   * items.jpg
     // You can also put your own file in the NetBeansProjects / AsciiImageGenerator folder.
-    public final static String FILE_NAME = "dog.jpg";
+    //public final static String FILE_NAME = "dog.jpg";
     //public final static String FILE_NAME = "ducks.jpg";
     //public final static String FILE_NAME = "items.jpg";
+    public final static String FILE_NAME = "cat.jpg";
+    //public final static String FILE_NAME = "spock.jpg";
+    //public final static String FILE_NAME = "jordan.jpg";
 
     public static void outputAscii(int grayScaleValue)
     {
@@ -24,15 +27,12 @@ public class AsciiImageGenerator
         // like to output.  You need to output at least three different characters.
         // The grayScaleValue variable will contain a value between 0 and 255. 
         // 0 corresponds to black and 255 corresponds to white.
-        // System.out.printf("%3d ", grayScaleValue);   // this line will print out the actual gray value
+        //System.out.printf("%3d ", grayScaleValue);   // this line will print out the actual gray value
         
-        if (grayScaleValue > 50)
-        {
+        if (grayScaleValue > 50){
+            System.out.print(".");
+        } else {
             System.out.print("M");
-        }
-        else
-        {
-            System.out.print(" ");
         }
     }
     
